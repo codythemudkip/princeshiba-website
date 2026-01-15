@@ -1,0 +1,60 @@
+body { 
+    background-color: #4368C6; 
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif /* step 4*/
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:normal;
+    font-size: 2em;
+    font-variant: normal;
+}
+
+#title-h1 { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Step 5. */
+    font-style: oblique;
+    font-size: 4em; 
+    font-variant:small-caps
+}
+
+nav > ul { 
+    list-style-type: none;
+    background-color: #294782;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav > ul > li{
+    float: left
+}
+
+nav > ul > li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: white
+}
+
+nav > ul > li a:hover {
+    background-color: #3871e2;
+}
+
+nav > ul > li a:active {
+    background-color: #5696f7;
+}
+
+.article-header { 
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+article > p{
+    text-indent: 1em;
+}
+
+article > p::first-letter { 
+    font-weight: bold;
+}

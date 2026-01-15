@@ -1,0 +1,18 @@
+* { /* step 1 */
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h4, h6 { 
+    font-size: 100%;
+}
+
+main, section, article, p, aside, footer, header, div, blockquote, address {
+    display: block
+}
+
+body {
+    line-height: 1;
+}
