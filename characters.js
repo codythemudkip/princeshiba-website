@@ -28,6 +28,7 @@ async function main() {
 }
 
 async function getCharData(name) {
+    name = name.toLowerCase();
     const file = await fetch("chars/" + name + "/" + name + ".json");
     const data = await file.json();
 
