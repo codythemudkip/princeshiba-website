@@ -28,14 +28,14 @@ async function main() {
 }
 
 async function getCharData(name) {
-    const file = await fetch("./chars/" + name + "/" + name + ".json");
+    const file = await fetch("chars/" + name + "/" + name + ".json");
     const data = await file.json();
 
     return data;
 }
 
 async function getData() {
-    const res = await fetch("./chars/chars.json");
+    const res = await fetch("chars/chars.json");
     const data = await res.json();
 
     return data;
@@ -47,7 +47,7 @@ async function getAbilityMod(value) {
 
 async function UpdateCharacterInfo(char_name)
 {
-    const folder = "./chars/" + char_name + "/";
+    const folder = "chars/" + char_name + "/";
     const char = await getCharData(char_name);
 
     var pic = document.querySelector("#pic");
