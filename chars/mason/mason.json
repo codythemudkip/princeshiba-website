@@ -1,0 +1,48 @@
+{
+    "name":"Mason Jackson",
+    "pic": "chars/mason/pic.png",
+    "class":"Dark Knight",
+    "age":24,
+    "background":"Soldier",
+    "height": "7ft 6in (228.6cm)",
+    "species": "Dire Wolf",
+    "gender": "Male",
+    "job": "Mercenary",
+    "birthplace": "Norcrest",
+    "realworldNation": "United Kingdom",
+    "level":15,
+    "hp": 200,
+    "max_hp":200,
+    "mp": 150,
+    "max_mp": 150,
+    "strength": 20,
+    "dexterity": 14,
+    "vitality":15,
+    "intelligence": 10,
+    "wisdom": 11,
+    "charisma": 8,
+    "classAbilities": {
+        "livingDead": {
+            "name": "Living Dead",
+            "type": "Special",
+            "desc": ""
+        },
+        "bloodWeapon": {
+            "name": "Blood Weapon",
+            "type": "Regular",
+            "desc": ""
+        },
+        "soulEater": {
+            "name": "Soul Eater",
+            "type": "Regular",
+            "desc": ""
+        }
+    },
+    "magic": {
+        "poison": {
+            "name": "Posion",
+            "type": "Dark Magic",
+            "desc": ""
+        }
+    }
+}

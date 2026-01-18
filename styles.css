@@ -58,3 +58,51 @@ article > p{
 article > p::first-letter { 
     font-weight: bold;
 }
+
+.char-container {
+    list-style-type: none;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+}
+
+.char-container > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2em;
+    overflow: hidden;
+}
+
+.char-container > ul > li {
+    float: left;
+    padding: 0.5em;
+}
+
+button {
+    background-color: #294782;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+    border-color: #294782;
+}
+
+button:hover {
+    background-color: #3871e2;
+    border-color: #3871e2;
+}
+
+button:active {
+    background-color: #5696f7;
+    border-color: #5696f7;
+}
+
+#pic {
+    flex: 1;
+    padding: 20px;
+    border: none;
+}

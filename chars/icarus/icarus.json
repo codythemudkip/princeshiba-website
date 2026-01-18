@@ -1,0 +1,30 @@
+{
+    "name":"Icarus Giovanni",
+    "pic": "chars/icarus/pic.png",
+    "class":"Warlock (The Fiend)",
+    "age":20,
+    "background":"",
+    "height": "5ft 7in (170.18cm)",
+    "species": "Wolf",
+    "gender": "Male",
+    "job": "Dancer / Alchemist",
+    "birthplace": "Elysia",
+    "realworldNation": "Italy",
+    "level":15,
+    "hp": 100,
+    "max_hp":100,
+    "mp": 255,
+    "max_mp": 255,
+    "strength": 8,
+    "dexterity": 14,
+    "vitality":12,
+    "intelligence": 14,
+    "wisdom": 10,
+    "charisma":20,
+    "classAbilities": {
+        
+    },
+    "magic":{
+        
+    }
+}

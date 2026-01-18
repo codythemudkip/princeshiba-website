@@ -1,0 +1,30 @@
+{
+    "name":"Keiko Fukumoto",
+    "pic": "chars/keiko/pic.png",
+    "class":"Warrior",
+    "age":20,
+    "background":"Criminal",
+    "height": "7ft 6in (228.6cm)",
+    "species": "Kojin",
+    "gender": "Female",
+    "job": "Monster Hunter",
+    "birthplace": "???",
+    "realworldNation": "Japan",
+    "level":15,
+    "hp": 165,
+    "max_hp":165,
+    "mp": 0,
+    "max_mp": 0,
+    "strength": 18,
+    "dexterity": 16,
+    "vitality":14,
+    "intelligence": 12,
+    "wisdom": 8,
+    "charisma": 10,
+    "classAbilities": {
+        
+    },
+    "magic":{
+        
+    }
+}
