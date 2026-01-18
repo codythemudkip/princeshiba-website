@@ -1,14 +1,17 @@
 [
     {
-        "path":"mason",
+        "path":"chars/mason",
+        "id": "mason",
         "name":"Mason"
     },
     {
-        "path":"keiko",
+        "path":"chars/keiko",
+        "id": "keiko",
         "name":"Keiko"
     },
     {
-        "path":"icarus",
+        "path":"chars/icarus",
+        "id": "icarus",
         "name":"Icarus"
     }
 ]

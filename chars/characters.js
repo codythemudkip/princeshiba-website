@@ -19,7 +19,7 @@ async function main() {
         button.textContent = char.name;
 
         button.addEventListener("click", () => {
-            UpdateCharacterInfo(char.path);
+            UpdateCharacterInfo(char.id);
         });
 
         listItem.appendChild(button);
